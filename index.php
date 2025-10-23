@@ -8,7 +8,8 @@ $webhookUrl = 'https://default39259deab6fa4fc7bc64d5e00a9670.76.environment.api.
 
 $message = [
     'message' => 'Hello from your Azure Web App!',
-    'user' => 'azure User'
+    'user' => 'azure User',
+    'timestamp' => time()
 ];
 
 $ch = curl_init($webhookUrl);
